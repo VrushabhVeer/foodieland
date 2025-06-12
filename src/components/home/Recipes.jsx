@@ -80,7 +80,7 @@ const Recipes = () => {
         </p>
       </div>
 
-      <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         {items.map((item, index) =>
           item.isAd ? (
             <div key="ad" className="w-full overflow-hidden">

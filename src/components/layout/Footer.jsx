@@ -20,7 +20,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <nav className="flex flex-row items-center space-x-3 md:space-x-10 font-medium">
+          <nav className="flex flex-row items-center space-x-6 md:space-x-10 font-medium">
             <Link href="">Recipes</Link>
             <Link href="">Blog</Link>
             <Link href="/contact">Contact</Link>
@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
 
         {/* bottom */}
-        <div className="flex flex-col md:flex-row items-center justify-between mt-10 border-t border-slate-200 pt-10">
+        <div className="flex flex-col md:flex-row items-center justify-between mt-6 md:mt-10 border-t border-slate-200 pt-2 md:pt-10 gap-4">
           <div></div>
           <div>
             <p className="text-md text-[#00000099]">
@@ -37,7 +37,7 @@ const Footer = () => {
               <span className="text-[#FF7426]">Vrushabh Veer</span>
             </p>
           </div>
-          <div className="flex items-center space-x-8">
+          <div className="flex items-center space-x-4 md:space-x-8">
             <FaFacebookF size={20} />
             <FaTwitter size={20} />
             <FaInstagram size={20} />

@@ -20,7 +20,7 @@ const InstagramPosts = () => {
           </p>
         </div>
 
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <Image
               src={post}

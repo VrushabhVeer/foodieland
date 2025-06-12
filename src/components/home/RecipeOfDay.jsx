@@ -76,7 +76,7 @@ const RecipeOfDay = () => {
         </p>
       </div>
 
-      <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {recipes.map((recipe) => (
           <RecipeCard1
             key={recipe.id}

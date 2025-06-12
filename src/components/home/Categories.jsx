@@ -13,12 +13,12 @@ const Categories = () => {
       <div className="flex items-center justify-between">
         <h1 className="font-semibold text-2xl md:text-4xl">Categories</h1>
 
-        <div className="bg-[#E7FAFE] rounded-2xl px-6 py-3 font-semibold">
+        <div className="bg-[#E7FAFE] rounded-2xl px-6 py-3 text-sm md:text-base font-semibold">
           View All Categories
         </div>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center mt-16">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center mt-8 md:mt-16">
         <div className="w-full bg-gradient-to-b from-white to-[#7082461A] rounded-2xl py-6">
           <div className="flex justify-center">
             <Image

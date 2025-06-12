@@ -9,13 +9,13 @@ const FormSection = () => {
         Contact us
       </h1>
 
-      <div className="flex items-center justify-between mt-16 flex-col md:flex-row">
+      <div className="flex items-center justify-between mt-10 md:mt-16 flex-col md:flex-row">
         <div className="w-full md:w-1/2 hidden md:block">
           <Image src={chefImage2} alt="Contact Form" width={400} height={472} />
         </div>
 
         <div className="w-full">
-          <div className="flex flex-col md:flex-row gap-6">
+          <div className="flex flex-col md:flex-row gap-4 md:gap-6">
             <div className="w-full">
               <label
                 htmlFor=""
@@ -45,7 +45,7 @@ const FormSection = () => {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row gap-6 mt-8">
+          <div className="flex flex-col md:flex-row  gap-4 md:gap-6 mt-4 md:mt-8">
             <div className="w-full">
               <label
                 htmlFor=""
@@ -75,7 +75,7 @@ const FormSection = () => {
             </div>
           </div>
 
-          <div className="mt-8">
+          <div className="mt-4 md:mt-8">
             <label
               htmlr=""
               className="uppercase mb-1 text-[12px] text-[#00000099] tracking-wide"
