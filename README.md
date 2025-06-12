@@ -22,6 +22,7 @@ This project is a conversion of a Figma design into a fully functional web appli
 - **Version Control**: Git
 
 ## 📦 Project Structure
+```
 src/
 ├── app/
 │   ├── contact/
@@ -54,6 +55,7 @@ src/
 │       ├── Footer.jsx
 │       └── Navbar.jsx
 └──
+```
 
 ## 🚀 Getting Started
 
