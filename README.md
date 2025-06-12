@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Foodieland
 
-## Getting Started
+This project is a conversion of a Figma design into a fully functional web application using React.js, Next.js, and Tailwind CSS. The application has been deployed on Vercel for live demonstration.
 
-First, run the development server:
+## 🚀 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+[View Live Demo](https://foodieland-swart-eta.vercel.app/)
+## ✨ Features
+
+- Pixel-perfect implementation of Figma design
+- Responsive layout using Tailwind CSS
+- Optimised performance with Next.js
+- Modern React components architecture
+- Vercel deployment with CI/CD
+
+## 🛠 Technologies Used
+
+- **Framework**: Next.js 14 (App Router)
+- **Styling**: Tailwind CSS
+- **Icons**: React Icons
+- **Deployment**: Vercel
+- **Version Control**: Git
+
+## 📦 Project Structure
+```
+src/
+├── app/
+│   ├── contact/
+│   │   └── page.jsx
+│   ├── globals.css
+│   ├── layout.js
+│   └── page.js
+│
+├── assets/
+│   ├── icons/
+│   └── images/
+│
+├── components/
+│   ├── contact/
+│   │   ├── FormSection.jsx
+│   │   └── MapSection.jsx
+│   │
+│   ├── home/
+│   │   ├── Categories.jsx
+│   │   ├── ChefSection.jsx
+│   │   ├── Hero.jsx
+│   │   ├── InstagramPosts.jsx
+│   │   ├── NewsletterSection.jsx
+│   │   ├── RecipeCard.jsx
+│   │   ├── RecipeCard1.jsx
+│   │   ├── RecipeOfDay.jsx
+│   │   └── Recipes.jsx
+│   │
+│   └── layout/
+│       ├── Footer.jsx
+│       └── Navbar.jsx
+└──
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Follow these steps to run the project locally:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
 
-## Learn More
+- Node.js (v18 or higher recommended)
+- npm/yarn/pnpm
+- Git (optional)
 
-To learn more about Next.js, take a look at the following resources:
+### Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository (or download the source code):
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   git clone https://github.com/VrushabhVeer/foodieland.git
 
-## Deploy on Vercel
+2. Navigate to the project directory:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    cd foodieland
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Install dependencies:
+
+   ```bash
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+
+4. Run the development server:
+
+   ```bash
+    npm run dev
+    # or
+    yarn dev
+    # or
+    pnpm dev
+
+5. Open http://localhost:3000 in your browser to view the application.
+
